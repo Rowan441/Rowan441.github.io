@@ -1,7 +1,55 @@
+header .site-title {
+  font-family: Varela Round, Arial, Helvetica, sans-serif;
+
+  padding: 30px;
+  text-align: center;
+  background: #272822;
+  color: #a1efe4;
+  font-size: 45px;
+}
+
+header nav {
+  font-family: Arial, Helvetica, sans-serif;
+
+  display: flex;
+  justify-content: center;
+
+  overflow: hidden;
+  white-space: nowrap;
+
+  background-color: #272822;
+
+  box-shadow: black -1px 10px 10px;
+  margin-bottom: 30px;
+}
+
+header nav a { 
+  flex: 0 1;
+
+  background-color: #272822;
+  color: #cfcfc2;
+
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+header nav a:hover { 
+  background-color: #cfcfc2;
+  color: #272822; 
+}
+
+header nav a.active { 
+  background-color: #4782b2;
+  color: #272822; 
+}
+
 body {
 	padding: 0;
 	margin: 0; 
-  background-color: #272822;
+  background-color: #3e3d32;
   font-family: Consolas,monaco,monospace; 
 }
 
@@ -9,6 +57,7 @@ canvas {
 	background: #eee;
 	display: block;
 	margin: 16px auto;
+  margin-bottom: 0px;
 }
 
 #buttons {
@@ -32,7 +81,7 @@ canvas {
 }
 
 section.rules {
-  background-color: #3e3d32;
+  background-color: #585647;
   padding: 8px 16px;
   margin: 8px 16px;
   border-radius: 10px;
