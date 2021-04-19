@@ -1,12 +1,14 @@
-* {
+body {
 	padding: 0;
 	margin: 0; 
+  background-color: #272822;
+  font-family: Consolas,monaco,monospace; 
 }
 
 canvas {
 	background: #eee;
 	display: block;
-	margin: 0 auto;
+	margin: 16px auto;
 }
 
 #buttons {
@@ -27,4 +29,50 @@ canvas {
 
 .invisible {
 	visibility: hidden;
+}
+
+section.rules {
+  background-color: #3e3d32;
+  padding: 8px 16px;
+  margin: 8px 16px;
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #a6e22e;
+}
+
+p, li {
+  color: #e6db74
+}
+
+strong {
+  color: #f92672
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+/* https://www.w3schools.com/howto/howto_css_bullet_color.asp */
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #fd971f; /* Change the color */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.purple {
+  color: #ae81ff;
+}
+
+p.moverules {
+  color: #66d9ef;
+  margin-top: 0px;
+}
+
+h3.piecerules {
+  margin-bottom: 0px;
 }

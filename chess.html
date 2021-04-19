@@ -25,40 +25,39 @@
 	<div id="chess-container">
 		<canvas id="chess-canvas" width="800" height="100"></canvas>
 		<div id="buttons">
-			<button id="chess-draw" class="invisible" type="button" > Claim Draw </button>
+			<button id="chess-draw" class="invisible" type="button" title="Neither player can checkmate!"> Claim Draw </button>
 			<button id="chess-replay" type="button"> Restart Game</button>
 		</div>
 	</div>
 
-	<section>
+	<section class="rules">
 
 		<h1> 1D-Chess </h1>
 
 		<p> 
 			1d-chess is a new variant where you can play the beautiful game without all those gratuitous extra dimensions.
-			You can test you skills and try to beat the all knowing chess AI. Luckily for you, you've got one major advantage:
-			You're playing as white!
+			Test your skills and try to beat the all knowing chess AI. Don't worry though, you're playing as white (quite the advantage)
 		</p>
 
 		<h2> Rules </h2>
 		
 		<p> There are three pieces in 1d-chess: </p>
 
-		<h3> King </h3>
+		<h3 class="piecerules"> King: </h3>
 
-		<p>  Can move one square in any direction. </p>
+		<p class="moverules">  Can move one square in any direction. </p>
 
-		<h3> Knight </h3>
+		<h3 class="piecerules"> Knight: </h3>
 
-		<p>  Can move 2 squares forward or backward. (jumping over any pieces in the way) </p>
+		<p class="moverules">  Can move 2 squares forward or backward. (jumping over any pieces in the way) </p>
 
-		<h3> Rook </h3>
+		<h3 class="piecerules"> Rook: </h3>
 
-		<p>  Can move in a straight line in any direction. </p>
+		<p class="moverules">  Can move in a straight line in any direction. </p>
 
 		<p>
-			Win by checkmating the enemy king: This occurs when the enemy king is in check (under attack by one of your pieces) 
-			and there are no legal moves for the opponent to get their king out of check
+			Win by checkmating the enemy king. This occurs when the enemy king is in check (under attack by one of your pieces) 
+			and there are no legal moves for the opponent to get their king out of check.
 		</p>
 
 		<p>
@@ -66,9 +65,9 @@
 		</p>
 
 		<ul>
-			<li> A player is <strong>not</strong> in check and there are no legal moves for them to play (Stalemate) </li>
-			<li> The same board position is repeated 3 times in a game. (3 Fold Repetition) </li>
-			<li> There are only kings left on the board, and it is impossible to checkmate the opponent (Insufficient Material) </li>
+			<li> A player is <strong>not</strong> in check and there are no legal moves for them to play <span class="purple">(Stalemate)</span> </li>
+			<li> The same board position is repeated 3 times in a game. <span class="purple">(3 Fold Repetition)</span> </li>
+			<li> There are only kings left on the board, thus it is impossible to checkmate the opponent <span class="purple">(Insufficient Material)</span> </li>
 		</ul>
 			
 
