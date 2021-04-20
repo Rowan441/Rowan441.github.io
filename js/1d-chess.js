@@ -39,7 +39,7 @@ function drawBoard(ctx, pieceList, tileSelected, legalMoves) {
 	const highlightColor = "rgba(10, 255, 10, 0.15)";
 	const checkColor = "rgba(255, 0, 0, 0.4)";
 	const indicatorColor = "rgba(0, 0, 0, 0.25)";
-	const pieceScale = 220
+	const pieceScale = 100;
 	
 	// draw: board
 	ctx.fillStyle = darkTileColor;
@@ -74,8 +74,8 @@ function drawBoard(ctx, pieceList, tileSelected, legalMoves) {
 	
 	// draw: pieces
 	for (let i = 0; i < pieceList.length; i++) {
-		if (pieceList[i] != "Empty") {
-			ctx.drawImage(pieces[pieceList[i]], i*100, 0, 8*pieceScale, pieceScale);
+		if (pieceList[i] != "Empty") {			
+			ctx.drawImage(pieces[pieceList[i]], i*100, 0, pieceScale, pieceScale);
 		}
 	}
 	
