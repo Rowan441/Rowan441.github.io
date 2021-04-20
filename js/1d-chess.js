@@ -71,6 +71,8 @@ function drawBoard(ctx, pieceList, tileSelected, legalMoves) {
 		ctx.fillStyle = checkColor;
 		ctx.fillRect(kingPos*100, 0, 100, 100);
 	}
+
+	console.log(pieces); 
 	
 	// draw: pieces
 	for (let i = 0; i < pieceList.length; i++) {
@@ -457,7 +459,7 @@ function makeAIMove(gameState) {
 
 }
 
-$(window).ready(function(){
+window.addEventListener('load', function(){
 
 	// set global vars.
 	canvas = $("#chess-canvas");
