@@ -80,7 +80,7 @@ canvas {
 	visibility: hidden;
 }
 
-section.rules {
+main {
   background-color: #585647;
   padding: 8px 16px;
   margin: 8px 16px;
