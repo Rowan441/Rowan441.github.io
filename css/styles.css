@@ -8,44 +8,6 @@ header .site-title {
   font-size: 45px;
 }
 
-header nav {
-  font-family: Arial, Helvetica, sans-serif;
-
-  display: flex;
-  justify-content: center;
-
-  overflow: hidden;
-  white-space: nowrap;
-
-  background-color: #272822;
-
-  box-shadow: black -1px 10px 10px;
-  margin-bottom: 30px;
-}
-
-header nav a { 
-  flex: 0 1;
-
-  background-color: #272822;
-  color: #cfcfc2;
-
-  text-align: center;
-  padding: 8px 16px;
-  text-decoration: none;
-  font-size: 17px;
-
-}
-
-header nav a:hover { 
-  background-color: #cfcfc2;
-  color: #272822; 
-}
-
-header nav a.active { 
-  background-color: #4782b2;
-  color: #272822; 
-}
-
 body {
 	padding: 0;
 	margin: 0; 
