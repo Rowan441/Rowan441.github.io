@@ -50,13 +50,17 @@ main {
   color: #FFFFFF;
 }
 
-.spoiler { 
-  color: #272822; 
+.spoiler-box {
+  width: 26em;
+  display: inline-block;
   background-color: #272822;
+
+  text-indent: -9999px;/* sends the text off-screen */
 }
 
-.spoiler:hover{
+.spoiler-box:hover{
   color: #ae81ff;
+  text-indent: 0px;
 }
 
 
