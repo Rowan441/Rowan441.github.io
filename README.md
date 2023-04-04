@@ -1,8 +1,6 @@
 # 1D-Chess
 
-### Try it and read the rules here: https://rowan441.github.io/
-
-![image](https://user-images.githubusercontent.com/63263642/226254136-8b30ac55-769b-4a79-a8a2-280da4ebb141.png)
+[![image](https://user-images.githubusercontent.com/63263642/226254136-8b30ac55-769b-4a79-a8a2-280da4ebb141.png)](https://rowan441.github.io/)
 
 ### Try it and read the rules here: https://rowan441.github.io/
 
