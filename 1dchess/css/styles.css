@@ -8,6 +8,11 @@ header .site-title {
   font-size: 45px;
 }
 
+header .site-title .site-subtitle {
+  color: #e6db74;
+  font-size: 16px;
+}
+
 body {
 	padding: 0;
 	margin: 0; 
