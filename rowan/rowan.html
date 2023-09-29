@@ -1,6 +1,16 @@
 <!doctype html>
 <html>
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M03GCRBYV1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M03GCRBYV1');
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
@@ -9,27 +19,41 @@
 </head>
 <body>
 
-    <div class="text-center text-3xl font-bold">Rowan Monk</div>
+    
  
-    <div class="bg-slate-300 m-2 py-1 rounded">
-        <ul class="flex mx-5">
-            <li class="flex-1 mr-5">
-              <a class="text-center block border border-blue-500 rounded py-2 px-4 bg-indigo-500 hover:bg-indigo-700 text-white m-auto" href="/1dchess/chess.html">
-                Play 1D Chess
-              </a>
-            </li>
-            <li class="flex-1 mr-5">
-                <a class="text-center block border border-blue-500 rounded text-4xl py-2 px-4 bg-indigo-500 hover:bg-indigo-700 text-white m-auto" href="https://github.com/Rowan441">
+    <div class="my-5 mx-8">
+        <div class="flex mx-5 items-center">
+            <div class="flex-initial mr-5 text-left text-3xl font-bold">Rowan Monk</div>
+            <div class="flex-1 mr-5">
+                <a class=" text-center block text-grey-200" href="#aboutme">
+                    About me
+                </a>
+            </div>
+            <div class="flex-1 mr-5">
+                <a class=" text-center block text-grey-200" href="/1dchess/chess.html">
+                    1D Chess
+                </a>
+            </div>
+            <div class="flex-1 mr-5">
+                <a class="text-center block text-4xl text-grey-200 m-auto" href="https://github.com/Rowan441">
                     <i class="fa fa-github"></i>
                 </a>
-            </li>
-            <li class="flex-1">
-                <a class="text-center block border border-blue-500 rounded py-2 px-4 bg-indigo-500 hover:bg-indigo-700 text-white m-auto" href="https://www.linkedin.com/in/rowan-monk-54379920b/">
-                    blah
+            </div>
+            <div class="flex-initial">
+                <a class="text-center block border border-blue-500 rounded-full px-4 py-2 bg-indigo-500 hover:bg-indigo-700 text-white m-auto" href="./resume.pdf">
+                    Checkout Resume
                 </a>
-            </li>
-        </ul>
+            </div>
+        </div>
     </div>
+
+    <div class="text-3xl font-bold text-left text-blue-400/50 pl-[10%] mt-10">
+        Hey! 👋 I am <br/>
+    </div>
+    <div class="text-7xl font-bold text-left text-slate-400 pl-[10%]">
+        Rowan Monk<br/>
+    </div>
+
 
 </body>
 </html>
