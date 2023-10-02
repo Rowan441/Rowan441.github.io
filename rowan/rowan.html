@@ -23,15 +23,15 @@
  
     <div class="my-5 mx-8">
         <div class="flex mx-5 items-center">
-            <div class="flex-initial mr-5 text-left text-3xl font-bold">Rowan Monk</div>
+            <div class="flex-initial mr-5 text-left text-3xl font-bold">Portfolio</div>
             <div class="flex-1 mr-5">
-                <a class=" text-center block text-grey-200" href="#aboutme">
+                <a class="text-center block text-grey-200 hover:underline" href="#aboutme">
                     About me
                 </a>
             </div>
             <div class="flex-1 mr-5">
-                <a class=" text-center block text-grey-200" href="/1dchess/chess.html">
-                    1D Chess
+                <a class=" text-center block text-grey-200 hover:underline" href="/1dchess/chess.html">
+                    1D-Chess
                 </a>
             </div>
             <div class="flex-1 mr-5">
@@ -47,12 +47,172 @@
         </div>
     </div>
 
-    <div class="text-3xl font-bold text-left text-blue-400/50 pl-[10%] mt-10">
-        Hey! 👋 I am <br/>
-    </div>
-    <div class="text-7xl font-bold text-left text-slate-400 pl-[10%]">
-        Rowan Monk<br/>
-    </div>
+    <div class="mx-8"> 
+        <div class="text-3xl font-bold text-left text-blue-400/50 pl-[10%] mt-10">
+            Hey! 👋 I am <br/>
+        </div>
+        <div class="text-7xl font-bold text-left text-slate-700 pl-[10%]">
+            Rowan Monk<br/>
+        </div>
+        <div class="text-2xl font-bold text-center text-blue-400 pl-[10%]">
+            Software Developer <br/>
+        </div>
+    
+        <div class="text-5xl text-left text-blue-400 mt-10" id="aboutme">
+            About me: <br/>
+        </div>
+
+
+        <div class="mt-6 ml-8 text-lg">
+            <ul class="list-disc list-inside">
+                <li class="mx-y">
+                    Went to Queen's Unversity for a Bachelor of Computing with a specialisation in Mathematics
+                </li>
+                <li class="my-5">
+                    Have completed two Software Development Internships  (See more info in <a class="text-blue-700 font-bold no-underline hover:underline" href="./resume.pdf">my resume</a>) during my time in school:
+                    <ul class="list-inside pl-16">
+                        <li class="my-10">
+                            <b>
+                                <a class="inline" href="https://www.rbcroyalbank.com/"><img class="inline" src="./assets/rbc-logo.jpg" alt="RBC company logo" width="125"></a>
+                                , May 2020 - Aug 2020
+                            </b>
+                            <ul class="list-disc list-inside">
+                                <li>Worked in a small team helping develop web tools to improve other RBC Developers' productivity / efficiency
+                                and to encourage collaboration.</li>
+                                <li>
+                                    Helped build the server backend - using SpringBoot & ElasticSearch - for a tool to aggregate and search for all of
+                                    RBC's developer internal tools and resources.
+                                </li>
+                                <li>Helped create and improve guides for onboarding new RBC Developers quickly.</li>
+                                <li>Wrote software documentation for existing RBC projects.</li>
+                            </ul>
+                        </li>
+                        <li class="my-10">
+                            <b>
+                                <a class="inline" href="https://www.clio.com/"><img class="inline" src="./assets/clio-logo.png" alt="Clio company logo" width="100"></a>
+                                , Sept 2021 - Aug 2022
+                            </b>
+                            <ul class="list-disc list-inside">
+                                <li>Helped to develop new features for a Cloud based web app used by thousands of legal professionals.</li>
+                                <li>Worked on a growth team, to develop and A/B test many new features to increase customer retention.</li>
+                                <li>
+                                    Learned and used TypeScript, AngularJS, Ruby, Ruby on Rails extensively while making impactful changes to
+                                    production code that measurably improved client’s experiences
+                                </li>
+                                <li>
+                                    Gave constructive input to colleagues in code reviews, one-on-one meetings, and project planning/architecture
+                                    meetings.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="my-5">
+                    Passionate about chess, Rubix's Cube speedsolving, and programming
+                </li>
+            </ul>
+            
+        </div>
+
+        <div class="text-5xl text-left text-blue-400 mt-10" id="personalprojects">
+            Personal Projects: <br/>
+        </div> 
+
+        <ul class="mt-2 ml-4 p-4 bg-orange-100 rounded">
+           <li>
+                <div class="font-bold text-2xl text-grey-800 my-4 text-center">
+                    1D-Chess
+                </div>
+                
+                <div class="flex justify-center">
+                    <a class="inline" href="https://rowan441.github.io/1dchess/chess.html">
+                        <img class="inline" src="./assets/1d-chess.png" alt="1D Chess gameplay">
+                    </a>
+                </div>
+
+                <div class="text-lg my-5 space-y-2">
+                    <div>
+                        I Built a one dimensional chess variant web game with a fully functional AI to play against.
+                        <a class="text-blue-700 hover:underline font-bold" href="https://rowan441.github.io/1dchess/chess.html">Try it here!</a>                        
+                    </div>
+
+                    <div>
+                        The rules can be a bit confusing for new chess players, but finding a winning line ends up being pretty fun puzzle.
+                    </div>
+
+                    <div>
+                        Creating this site required the understanding of web technologies such as <b>javascript, css, and html</b>. 
+                        As well as web API's, for example the Canvas API.
+                    </div>
+
+                    <div>
+                        I used the same techniques that modern normal chess engines use including minimax search, alpha-beta pruning, and intelligent move ordering
+                        in order to create an <b>AI that is capable of deducing the optimal move</b> from any board position.
+                    </div>
+                </div> 
+           </li> 
+        </ul>
+
+        <ul class="mt-2 ml-4 p-4 bg-green-100 rounded">
+            <li>
+                <div class="font-bold text-2xl text-grey-800 my-4 text-center">
+                    🤖 Customizable Python Chess Bot
+                </div>
+                
+   
+                <div class="flex justify-center">
+                    <a class="text-center block border border-blue-500 rounded-full px-4 py-2 bg-indigo-500 hover:bg-indigo-700 text-white w-64" href="https://github.com/Rowan441/StarterLichessBot">
+                        <i class="fa fa-github"></i> Github Repo
+                    </a>
+                </div>
+ 
+                 <div class="text-lg my-5 space-y-2">
+                     <div>
+                        Created a python program that acts as a framework for creating bots for the popular online chess site: <a href="https://lichess.org/">Lichess.org</a>                        
+                     </div>
+ 
+                     <div>
+                         This projects required me to use python to <b>interface with the Lichess.org API</b> event stream to listen for
+                         game requests from Lichess users, and respond to moves in real time.
+                     </div>
+ 
+                     <div>
+                         I <b>used Python's threading library</b> to allow the bot to be able to play multiple games at the same time
+                         as games are played with time controls and must be reponded to ASAP
+                     </div>
+ 
+                     <div>
+                         I used this framework and a <b>Linux cloud server</b> to create a simple chess bot that (while it was running) <b>played over 4000 games</b>
+                         with different Lichess users who stumbled upon it.
+                     </div>
+                 </div> 
+            </li> 
+         </ul>
+
+         <ul class="mt-2 ml-4 p-4 bg-orange-100 rounded">
+            <li>
+                <div class="font-bold text-2xl text-grey-800 my-4 text-center">
+                    More Coming Soon!
+                </div>
+                
+   
+                <!-- <div class="flex justify-center">
+                    <a class="text-center block border border-blue-500 rounded-full px-4 py-2 bg-indigo-500 hover:bg-indigo-700 text-white w-64" href="https://github.com/Rowan441/StarterLichessBot">
+                        <i class="fa fa-github"></i> Github Repo
+                    </a>
+                </div> -->
+ 
+                 <div class="text-lg my-5 space-y-2">
+                     <div>
+                         Stay tuned for more projects!
+                     </div>
+                 </div> 
+            </li> 
+         </ul>
+         
+        </div>
+
+</div>
 
 
 </body>
